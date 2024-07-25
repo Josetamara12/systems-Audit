@@ -1,0 +1,3804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP Informes de Escaneo</title>
+<link
+	href="2024-02-13-ZAP-Report-2/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2024-02-13-ZAP-Report-2/themes/original/main.css" rel="stylesheet">
+<link
+	href="2024-02-13-ZAP-Report-2/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP Informes de Escaneo</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2024-02-13-ZAP-Report-2/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on mar 13 feb 2024, at 23:00:36</span>
+		</p>
+		<p>ZAP Version: 2.14.0</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About this report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert counts by risk and confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert counts by site and risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert counts by alert type</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Medio</span>, <span>Confidence</span>=<span
+									class="confidence-level">Alta</span> <span>(2)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-2-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Medio</span>, <span>Confidence</span>=<span
+									class="confidence-level">Media</span> <span>(3)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-2-confidence-1"><span>Risk</span>=<span
+									class="risk-level">Medio</span>, <span>Confidence</span>=<span
+									class="confidence-level">Baja</span> <span>(2)</span></a></li>
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Alta</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Media</span> <span>(4)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Alta</span> <span>(2)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-0-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Media</span> <span>(2)</span></a></li>
+							
+							
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About this report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">http://127.0.0.1</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">Alto</span>, <span class="risk-level">Medio</span>, <span class="risk-level">Bajo</span>, <span class="risk-level">Informativo</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">Confirmado por Usuario</span>, <span class="confidence-level">Alta</span>, <span class="confidence-level">Media</span>, <span class="confidence-level">Baja</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">Confirmado por Usuario</span>, <span class="confidence-level">Alta</span>, <span class="confidence-level">Media</span>, <span class="confidence-level">Baja</span>, <span class="confidence-level">Falso positivo</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert counts by risk and confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">Confirmado por Usuario</th>
+							<th scope="col">Alta</th>
+							<th scope="col">Media</th>
+							<th scope="col">Baja</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">Alto</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0,0 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medio</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(18,8 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+							<td><span>7</span><br> <span class="additional-info-percentages">(43,8 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Bajo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(6,2 %)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(25,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>5</span><br> <span class="additional-info-percentages">(31,2 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informativo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(25,0 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(31,2 %)</span></td>
+							<td><span>9</span><br> <span
+								class="additional-info-percentages">(56,2 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+							<td><span>16</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert counts by site and risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>Alto</span><br>  <span
+									class="additional-info-percentages">(= Alto)</span>  
+							</th>
+							<th scope="col">
+								<span>Medio</span><br>   <span
+									class="additional-info-percentages">(&gt;= Medio)</span> 
+							</th>
+							<th scope="col">
+								<span>Bajo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Bajo)</span> 
+							</th>
+							<th scope="col">
+								<span>Informativo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informativo)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="1">Site</th>
+							<th scope="row">http://127.0.0.1</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>7</span><br> <span
+								class="additional-info-percentages">(7)</span></td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(12)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(16)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert counts by alert type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">Application Error Disclosure</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(6,2 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Ausencia de Ttokens Anti-CSRF</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(18,8 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">Cabecera Content Security Policy (CSP) no configurada</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>9</span><br> <span
+								class="additional-info-percentages">(56,2 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Directory Browsing (Exploración de directorios)</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(18,8 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Falta de cabecera Anti-Clickjacking</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>7</span><br> <span
+								class="additional-info-percentages">(43,8 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">Hidden File Found (Archivo Oculto Encontrado)</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">Parameter Tampering (Manipulación de Parámetros)</a></th>
+							<td class="risk-level">Medio</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-7">Cookie No HttpOnly Flag</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(6,2 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-8">Cookie sin el atributo SameSite</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(6,2 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-9">El servidor divulga información mediante un campo(s) de encabezado de respuesta HTTP &#39;&#39;&#39;&#39;X-Powered-By&#39;&#39;&#39;&#39;</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(31,2 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-10">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>13</span><br> <span
+								class="additional-info-percentages">(81,2 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-11">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>11</span><br> <span
+								class="additional-info-percentages">(68,8 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-12">GET para POST</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-13">Petición de Autenticación Identificada</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-14">Respuesta de Gestión de Sesión Identificada</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(12,5 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-15">User Agent Fuzzer</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>60</span><br> <span
+								class="additional-info-percentages">(375,0 %)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>16</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				<li id="alerts--risk-2-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medio</span>, <span>Confidence</span>=<span
+							class="confidence-level">Alta</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">Cabecera Content Security Policy (CSP) no configurada</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>La Política de seguridad de contenido (CSP) es una capa adicional de seguridad que ayuda a detectar y mitigar ciertos tipos de ataques, incluidos Cross Site Scripting (XSS) y ataques de inyección de datos. Estos ataques se utilizan para todo, desde el robo de datos hasta la desfiguración del sitio o la distribución de malware. CSP proporciona un conjunto de encabezados HTTP estándar que permiten a los propietarios de sitios web declarar fuentes de contenido aprobadas que los navegadores deberían poder cargar en esa página; los tipos cubiertos son JavaScript, CSS, marcos HTML, fuentes, imágenes y objetos incrustados como applets de Java, ActiveX, archivos de audio y video.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (241 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/ HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (254 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:12 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Last-Modified: Sat, 03 Nov 2018 04:13:30 GMT
+ETag: &quot;9a7-579badfd96e80&quot;
+Accept-Ranges: bytes
+Content-Length: 2471
+Content-Type: text/html
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2471 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Documento sin título&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estlio2 .estlio2 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+}
+.estilo3 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 40px;
+	color: #6C6C6C;
+}
+body,td,th {
+	font-family: Arial, &quot;Arial Black&quot;, &quot;Arial Narrow&quot;, Roman;
+	font-size: 50px;
+	color: #000;
+}
+.estilo4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 75px;
+}
+.estilo5 .estilo5 {
+	font-size: 43px;
+}
+.estilo5 {	font-size: 24px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+}
+.estilo51 {
+	font-size: 30px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+	color: #003;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estlio2&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;principal&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo3&quot;&gt;consentimos y cuidamos la belleza de tu imagen.&lt;br&gt;
+          &lt;br&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo4&quot;&gt;¡ SERVICIO A DOMICILIO !&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo5&quot;&gt;
+          &lt;p class=&quot;estilo5&quot;&gt;&amp;quot; llega donde estes y en el momento que la necesites&amp;quot;          &lt;br&gt;
+            &lt;span class=&quot;estilo51&quot;&gt;Servicio en toda el area metropolitana.&lt;/span&gt;&lt;br&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width=&quot;604&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;registro_logueo/login.php&quot;&gt;&lt;img src=&quot;img/boton_1.png&quot; alt=&quot;boton de solicitar servicio&quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+        &lt;td width=&quot;606&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;php/admin.html&quot;&gt;&lt;img src=&quot;img/boton_2.png&quot; alt=&quot;registrese manicurista &quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que su servidor web, servidor de aplicaciones, balanceador de carga, etc. esté configurado para establecer la cabecera Content-Security-Policy.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">Hidden File Found (Archivo Oculto Encontrado)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/server-status</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces">WSTG-v42-CONF-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Se identificó un archivo confidencial como accesible o disponible. Esto puede filtrar información administrativa, de configuración o de credenciales que puede ser aprovechada por un individuo malintencionado para atacar más adelante el sistema o mejorar la manera en que realiza ataques de ingeniería social.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>apache_server_status</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (296 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/server-status HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://127.0.0.1/belleza/bellezaencasa/php/admin.html
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (179 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:56 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Content-Length: 5469
+Content-Type: text/html; charset=ISO-8859-1
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (5469 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;Apache Status&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Apache Server Status for 127.0.0.1 (via 127.0.0.1)&lt;/h1&gt;
+
+&lt;dl&gt;&lt;dt&gt;Server Version: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30&lt;/dt&gt;
+&lt;dt&gt;Server MPM: WinNT&lt;/dt&gt;
+&lt;dt&gt;Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+&lt;/dt&gt;&lt;/dl&gt;&lt;hr /&gt;&lt;dl&gt;
+&lt;dt&gt;Current Time: Tuesday, 13-Feb-2024 22:58:56 Hora est. Pacífico, Sudamérica&lt;/dt&gt;
+&lt;dt&gt;Restart Time: Tuesday, 13-Feb-2024 18:24:29 Hora est. Pacífico, Sudamérica&lt;/dt&gt;
+&lt;dt&gt;Parent Server Config. Generation: 1&lt;/dt&gt;
+&lt;dt&gt;Parent Server MPM Generation: 0&lt;/dt&gt;
+&lt;dt&gt;Server uptime:  4 hours 34 minutes 27 seconds&lt;/dt&gt;
+&lt;dt&gt;Server load: -1.00 -1.00 -1.00&lt;/dt&gt;
+&lt;dt&gt;Total accesses: 2340 - Total Traffic: 58.6 MB - Total Duration: 263371&lt;/dt&gt;
+&lt;dt&gt;.142 requests/sec - 3732 B/second - 25.7 kB/request - 112.552 ms/request&lt;/dt&gt;
+&lt;dt&gt;6 requests currently being processed, 0 workers gracefully restarting, 144 idle workers&lt;/dt&gt;
+&lt;/dl&gt;&lt;pre&gt;________________________________________________________________
+____________W_______________________________________________C___
+_________________WCWK_&lt;/pre&gt;
+&lt;p&gt;Scoreboard Key:&lt;br /&gt;
+&quot;&lt;b&gt;&lt;code&gt;_&lt;/code&gt;&lt;/b&gt;&quot; Waiting for Connection, 
+&quot;&lt;b&gt;&lt;code&gt;S&lt;/code&gt;&lt;/b&gt;&quot; Starting up, 
+&quot;&lt;b&gt;&lt;code&gt;R&lt;/code&gt;&lt;/b&gt;&quot; Reading Request,&lt;br /&gt;
+&quot;&lt;b&gt;&lt;code&gt;W&lt;/code&gt;&lt;/b&gt;&quot; Sending Reply, 
+&quot;&lt;b&gt;&lt;code&gt;K&lt;/code&gt;&lt;/b&gt;&quot; Keepalive (read), 
+&quot;&lt;b&gt;&lt;code&gt;D&lt;/code&gt;&lt;/b&gt;&quot; DNS Lookup,&lt;br /&gt;
+&quot;&lt;b&gt;&lt;code&gt;C&lt;/code&gt;&lt;/b&gt;&quot; Closing connection, 
+&quot;&lt;b&gt;&lt;code&gt;L&lt;/code&gt;&lt;/b&gt;&quot; Logging, 
+&quot;&lt;b&gt;&lt;code&gt;G&lt;/code&gt;&lt;/b&gt;&quot; Gracefully finishing,&lt;br /&gt; 
+&quot;&lt;b&gt;&lt;code&gt;I&lt;/code&gt;&lt;/b&gt;&quot; Idle cleanup of worker, 
+&quot;&lt;b&gt;&lt;code&gt;.&lt;/code&gt;&lt;/b&gt;&quot; Open slot with no current process&lt;br /&gt;
+&lt;/p&gt;
+
+
+&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;th&gt;Srv&lt;/th&gt;&lt;th&gt;PID&lt;/th&gt;&lt;th&gt;Acc&lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt;SS&lt;/th&gt;&lt;th&gt;Req&lt;/th&gt;&lt;th&gt;Dur&lt;/th&gt;&lt;th&gt;Conn&lt;/th&gt;&lt;th&gt;Child&lt;/th&gt;&lt;th&gt;Slot&lt;/th&gt;&lt;th&gt;Client&lt;/th&gt;&lt;th&gt;Protocol&lt;/th&gt;&lt;th&gt;VHost&lt;/th&gt;&lt;th&gt;Request&lt;/th&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;0-0&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8944&lt;/td&gt;&lt;td&gt;52/351/351&lt;/td&gt;&lt;td&gt;&lt;b&gt;W&lt;/b&gt;
+&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;39300&lt;/td&gt;&lt;td&gt;49.2&lt;/td&gt;&lt;td&gt;0.76&lt;/td&gt;&lt;td&gt;0.76
+&lt;/td&gt;&lt;td&gt;127.0.0.1&lt;/td&gt;&lt;td&gt;http/1.1&lt;/td&gt;&lt;td nowrap&gt;localhost:80&lt;/td&gt;&lt;td nowrap&gt;POST /belleza/bellezaencasa/registro_logueo/registration.php HT&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;0-0&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8944&lt;/td&gt;&lt;td&gt;74/374/374&lt;/td&gt;&lt;td&gt;&lt;b&gt;C&lt;/b&gt;
+&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;37683&lt;/td&gt;&lt;td&gt;74.1&lt;/td&gt;&lt;td&gt;16.27&lt;/td&gt;&lt;td&gt;16.27
+&lt;/td&gt;&lt;td&gt;127.0.0.1&lt;/td&gt;&lt;td&gt;http/1.1&lt;/td&gt;&lt;td nowrap&gt;localhost:80&lt;/td&gt;&lt;td nowrap&gt;GET /belleza/bellezaencasa/php/admin.html/ HTTP/1.1&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;0-0&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8944&lt;/td&gt;&lt;td&gt;0/396/396&lt;/td&gt;&lt;td&gt;_
+&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;96&lt;/td&gt;&lt;td&gt;51004&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;td&gt;23.75&lt;/td&gt;&lt;td&gt;23.75
+&lt;/td&gt;&lt;td&gt;127.0.0.1&lt;/td&gt;&lt;td&gt;http/1.1&lt;/td&gt;&lt;td nowrap&gt;localhost:80&lt;/td&gt;&lt;td nowrap&gt;POST /belleza/bellezaencasa/php/pagina2.php/ HTTP/1.1&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;0-0&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8944&lt;/td&gt;&lt;td&gt;70/171/171&lt;/td&gt;&lt;td&gt;&lt;b&gt;W&lt;/b&gt;
+&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;5348&lt;/td&gt;&lt;td&gt;64.1&lt;/td&gt;&lt;td&gt;0.16&lt;/td&gt;&lt;td&gt;0.16
+&lt;/td&gt;&lt;td&gt;127.0.0.1&lt;/td&gt;&lt;td&gt;http/1.1&lt;/td&gt;&lt;td nowrap&gt;localhost:80&lt;/td&gt;&lt;td nowrap&gt;GET /server-status HTTP/1.1&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;0-0&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8944&lt;/td&gt;&lt;td&gt;74/481/481&lt;/td&gt;&lt;td&gt;&lt;b&gt;C&lt;/b&gt;
+&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;42616&lt;/td&gt;&lt;td&gt;73.2&lt;/td&gt;&lt;td&gt;1.07&lt;/td&gt;&lt;td&gt;1.07
+&lt;/td&gt;&lt;td&gt;127.0.0.1&lt;/td&gt;&lt;td&gt;http/1.1&lt;/td&gt;&lt;td nowrap&gt;localhost:80&lt;/td&gt;&lt;td nowrap&gt;GET /belleza/bellezaencasa/registro_logueo/css HTTP/1.1&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;0-0&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8944&lt;/td&gt;&lt;td&gt;60/222/222&lt;/td&gt;&lt;td&gt;&lt;b&gt;W&lt;/b&gt;
+&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;60782&lt;/td&gt;&lt;td&gt;45.6&lt;/td&gt;&lt;td&gt;8.15&lt;/td&gt;&lt;td&gt;8.15
+&lt;/td&gt;&lt;td&gt;127.0.0.1&lt;/td&gt;&lt;td&gt;http/1.1&lt;/td&gt;&lt;td nowrap&gt;localhost:80&lt;/td&gt;&lt;td nowrap&gt;GET /belleza/bellezaencasa/registro_logueo/index.php HTTP/1.1&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;0-0&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8944&lt;/td&gt;&lt;td&gt;63/357/357&lt;/td&gt;&lt;td&gt;&lt;b&gt;K&lt;/b&gt;
+&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;26914&lt;/td&gt;&lt;td&gt;48.1&lt;/td&gt;&lt;td&gt;8.46&lt;/td&gt;&lt;td&gt;8.46
+&lt;/td&gt;&lt;td&gt;127.0.0.1&lt;/td&gt;&lt;td&gt;http/1.1&lt;/td&gt;&lt;td nowrap&gt;localhost:80&lt;/td&gt;&lt;td nowrap&gt;POST /belleza/bellezaencasa/php/pagina2.php HTTP/1.1&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+ &lt;hr /&gt; &lt;table&gt;
+ &lt;tr&gt;&lt;th&gt;Srv&lt;/th&gt;&lt;td&gt;Child Server number - generation&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;PID&lt;/th&gt;&lt;td&gt;OS process ID&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Acc&lt;/th&gt;&lt;td&gt;Number of accesses this connection / this child / this slot&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;M&lt;/th&gt;&lt;td&gt;Mode of operation&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;SS&lt;/th&gt;&lt;td&gt;Seconds since beginning of most recent request&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Req&lt;/th&gt;&lt;td&gt;Milliseconds required to process most recent request&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Dur&lt;/th&gt;&lt;td&gt;Sum of milliseconds required to process all requests&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Conn&lt;/th&gt;&lt;td&gt;Kilobytes transferred this connection&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Child&lt;/th&gt;&lt;td&gt;Megabytes transferred this child&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Slot&lt;/th&gt;&lt;td&gt;Total megabytes transferred this slot&lt;/td&gt;&lt;/tr&gt;
+ &lt;/table&gt;
+&lt;hr&gt;
+&lt;table cellspacing=0 cellpadding=0&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#000000&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#ffffff&quot; face=&quot;Arial,Helvetica&quot;&gt;SSL/TLS Session Cache Status:&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot;&gt;
+cache type: &lt;b&gt;SHMCB&lt;/b&gt;, shared memory: &lt;b&gt;512000&lt;/b&gt; bytes, current entries: &lt;b&gt;0&lt;/b&gt;&lt;br&gt;subcaches: &lt;b&gt;32&lt;/b&gt;, indexes per subcache: &lt;b&gt;88&lt;/b&gt;&lt;br&gt;index usage: &lt;b&gt;0%&lt;/b&gt;, cache usage: &lt;b&gt;0%&lt;/b&gt;&lt;br&gt;total entries stored since starting: &lt;b&gt;0&lt;/b&gt;&lt;br&gt;total entries replaced since starting: &lt;b&gt;0&lt;/b&gt;&lt;br&gt;total entries expired since starting: &lt;b&gt;0&lt;/b&gt;&lt;br&gt;total (pre-expiry) entries scrolled out of the cache: &lt;b&gt;0&lt;/b&gt;&lt;br&gt;total retrieves since starting: &lt;b&gt;0&lt;/b&gt; hit, &lt;b&gt;0&lt;/b&gt; miss&lt;br&gt;total removes since starting: &lt;b&gt;0&lt;/b&gt; hit, &lt;b&gt;0&lt;/b&gt; miss&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;address&gt;Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 Server at 127.0.0.1 Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>HTTP/1.1 200 OK</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Considera si este componente es realmente necesario en producción; si no es así, desactívelo. Si es así, asegurar que el acceso requiera la autenticación y autorización adecuadas, o limita la exposición solo a sistemas internos o IPs de origen definidas, etc.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medio</span>, <span>Confidence</span>=<span
+							class="confidence-level">Media</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">Application Error Disclosure</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://127.0.0.1/belleza/bellezaencasa/php/pagina2.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces">WSTG-v42-ERRH-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling">WSTG-v42-ERRH-01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (389 bytes)</summary>
+				
+				<pre><code>POST http://127.0.0.1/belleza/bellezaencasa/php/pagina2.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://127.0.0.1/belleza/bellezaencasa/php/admin.html
+content-length: 0
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (200 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:13 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Content-Length: 1181
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1181 bytes)</summary>
+				
+				<pre><code>﻿&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estilo2 {
+	font-size: 60px;
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;foto&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Trying to access array offset on value of type null in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;foto&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Trying to access array offset on value of type null in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Fatal error&lt;/b&gt;:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php:15
+Stack trace:
+#0 C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php(15): copy(&#39;&#39;, &#39;&#39;)
+#1 {main}
+  thrown in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;foto&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Directory Browsing (Exploración de directorios)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/img/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html">OWASP_2017_A05</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Es posible listar el directorio de sistema. El directorio de sistema puede mostrar scripts ocultos, archivos, archivos de copia de seguridad, etc., a los que se puede acceder para leer su información.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (295 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/img/ HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://127.0.0.1/belleza/bellezaencasa/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (173 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Content-Length: 2125
+Content-Type: text/html;charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2125 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;title&gt;Index of /belleza/bellezaencasa/img&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+&lt;h1&gt;Index of /belleza/bellezaencasa/img&lt;/h1&gt;
+  &lt;table&gt;
+   &lt;tr&gt;&lt;th valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/blank.gif&quot; alt=&quot;[ICO]&quot;&gt;&lt;/th&gt;&lt;th&gt;&lt;a href=&quot;?C=N;O=D&quot;&gt;Name&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a href=&quot;?C=M;O=A&quot;&gt;Last modified&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a href=&quot;?C=S;O=A&quot;&gt;Size&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a href=&quot;?C=D;O=A&quot;&gt;Description&lt;/a&gt;&lt;/th&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;th colspan=&quot;5&quot;&gt;&lt;hr&gt;&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/back.gif&quot; alt=&quot;[PARENTDIR]&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/belleza/bellezaencasa/&quot;&gt;Parent Directory&lt;/a&gt;       &lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td align=&quot;right&quot;&gt;  - &lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/image2.gif&quot; alt=&quot;[IMG]&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;boton_1.png&quot;&gt;boton_1.png&lt;/a&gt;            &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;2018-11-02 22:32  &lt;/td&gt;&lt;td align=&quot;right&quot;&gt; 33K&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/image2.gif&quot; alt=&quot;[IMG]&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;boton_2.png&quot;&gt;boton_2.png&lt;/a&gt;            &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;2018-11-02 22:32  &lt;/td&gt;&lt;td align=&quot;right&quot;&gt; 34K&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/image2.gif&quot; alt=&quot;[IMG]&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;manicurista1.png&quot;&gt;manicurista1.png&lt;/a&gt;       &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;2018-11-05 15:24  &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;193K&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/image2.gif&quot; alt=&quot;[IMG]&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;manicurista2.png&quot;&gt;manicurista2.png&lt;/a&gt;       &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;2018-11-05 15:32  &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;135K&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/image2.gif&quot; alt=&quot;[IMG]&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;manicurista3.png&quot;&gt;manicurista3.png&lt;/a&gt;       &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;2018-11-05 15:26  &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;171K&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;/icons/image2.gif&quot; alt=&quot;[IMG]&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;rosa.gif&quot;&gt;rosa.gif&lt;/a&gt;               &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;2018-11-02 22:32  &lt;/td&gt;&lt;td align=&quot;right&quot;&gt;7.5M&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;th colspan=&quot;5&quot;&gt;&lt;hr&gt;&lt;/th&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;address&gt;Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 Server at 127.0.0.1 Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>http://127.0.0.1/belleza/bellezaencasa/img/</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Parent Directory</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Deshabilita el explorador de archivos. Si es necesario, asegúrate de que los archivos que pueda mostrar no sean un riesgo.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Falta de cabecera Anti-Clickjacking</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking">WSTG-v42-CLNT-09</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>La respuesta no incluye Content-Security-Policy con la directiva &#39;frame-ancestors&#39; ni X-Frame-Options para proteger contra ataques de &#39;ClickJacking&#39;.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (241 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/ HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (254 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:12 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Last-Modified: Sat, 03 Nov 2018 04:13:30 GMT
+ETag: &quot;9a7-579badfd96e80&quot;
+Accept-Ranges: bytes
+Content-Length: 2471
+Content-Type: text/html
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2471 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Documento sin título&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estlio2 .estlio2 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+}
+.estilo3 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 40px;
+	color: #6C6C6C;
+}
+body,td,th {
+	font-family: Arial, &quot;Arial Black&quot;, &quot;Arial Narrow&quot;, Roman;
+	font-size: 50px;
+	color: #000;
+}
+.estilo4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 75px;
+}
+.estilo5 .estilo5 {
+	font-size: 43px;
+}
+.estilo5 {	font-size: 24px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+}
+.estilo51 {
+	font-size: 30px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+	color: #003;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estlio2&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;principal&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo3&quot;&gt;consentimos y cuidamos la belleza de tu imagen.&lt;br&gt;
+          &lt;br&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo4&quot;&gt;¡ SERVICIO A DOMICILIO !&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo5&quot;&gt;
+          &lt;p class=&quot;estilo5&quot;&gt;&amp;quot; llega donde estes y en el momento que la necesites&amp;quot;          &lt;br&gt;
+            &lt;span class=&quot;estilo51&quot;&gt;Servicio en toda el area metropolitana.&lt;/span&gt;&lt;br&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width=&quot;604&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;registro_logueo/login.php&quot;&gt;&lt;img src=&quot;img/boton_1.png&quot; alt=&quot;boton de solicitar servicio&quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+        &lt;td width=&quot;606&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;php/admin.html&quot;&gt;&lt;img src=&quot;img/boton_2.png&quot; alt=&quot;registrese manicurista &quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-frame-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Los navegadores web modernos admiten los encabezados HTTP Content-Security-Policy y X-Frame-Options. Asegúrese de que uno de ellos esté configurado en todas las páginas web devueltas por su sitio/aplicación.</p>
+
+<p>Si espera que la página esté enmarcada solo por páginas en su servidor (por ejemplo, es parte de un FRAMESET), querrá usar SAMEORIGIN; de lo contrario, si nunca espera que la página esté enmarcada, debe usar DENY. Alternativamente, considere implementar la directiva &quot;frame-ancestros&quot; de la política de seguridad de contenido.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-2-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medio</span>, <span>Confidence</span>=<span
+							class="confidence-level">Baja</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Ausencia de Ttokens Anti-CSRF</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/php/admin.html</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery">WSTG-v42-SESS-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html">OWASP_2017_A05</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>No se encontraron tokens Anti-CSRF en un formulario de envío HTML.</p>
+
+<p>Una solicutud falsa entre sitios en un ataque que compromete y obliga a una víctima a enviar su solicitud HTTP a un destino objetivo sin su conocimiento o intención para poder realizar una acción como víctima. La causa oculta es la funcionalidad de la aplicación utilizando acciones de URL/formulario que pueden ser adivinados de forma repetible. La naturaleza del ataque es que CSRG explota la confianza que un sitio web proporciona a un usuario. Por el contrario, las cadenas de comandos de los sitios cruzados (XSS) explotan la confianza que un usuario proporciona en un sitio web. Al igual que XSS, los ataques CSRG no son de forma necesaria de sitios cruzados, pero hay la posibilidad de que si pueden serlo. La falsificación de las solicitudes ente los sitios también se conoce como CSRF, XSRG, ataques con un solo clic, montaje de sesión, diputado confundido y navegación en alta mar.</p>
+
+<p>Los ataques de CSRG son muy efectivos en varias situaciones, que incluyen:</p>
+
+<p>*La victima tiene una sesión activa en el sitio de destino.</p>
+
+<p>    *La víctima se autoriza por medio de la autenticación HTTP en el sitio de destino.</p>
+
+<p>    *La víctima se encuentra en la misma red local que el sitio de destino.</p>
+
+<p>CSRF se ha utilizado especialmente para poder realizar una acción contra un sitio objetivo utilizando los privilegios de la víctima, pero se han revelado técnicas recientes para difundir información al obtener el acceso a la respuesta. El riesgo de divulgación de información aumenta de forma drástica cuando el sitio de destino se encuentra vulnerable a XSS, porque XSS se puede utilizar como una plataforma para CSRF, lo que le permite al atacante que opere desde adentro de los líites de la misma política de origen.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Ninguna ficha (token) Anti-CSRF [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] fue encontrada en los siguientes formularios HTML: [Form 1: &quot;&quot; ].  </p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (305 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/php/admin.html HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://127.0.0.1/belleza/bellezaencasa/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (254 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:13 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Last-Modified: Sat, 03 Nov 2018 03:34:30 GMT
+ETag: &quot;cd0-579ba545fdd80&quot;
+Accept-Ranges: bytes
+Content-Length: 3280
+Content-Type: text/html
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (3280 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Documento sin título&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estlio2 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+}
+.estilo3 strong {
+	font-size: 28px;
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+}
+.estilo4 {
+	font-size: 22px;
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+}
+.estilo5 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-weight: bold;
+	font-size: 22px;
+}
+.estilo6 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-weight: bold;
+	font-size: 22px;
+}
+.estilo7 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 22px;
+	font-weight: bold;
+}
+.estilo8 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 22px;
+	font-weight: bold;
+}
+.estilo9 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 22px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;form action=&quot;pagina2.php&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+&lt;body&gt;
+&lt;table width=&quot;1220&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;../img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;regis_manicurista&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot; class=&quot;estilo3&quot;&gt;&lt;strong&gt;REGISTRO HOJA DE VIDA&lt;br&gt;
+&amp;quot; DE PROFESIONALES &amp;quot; &lt;/strong&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;
+          &lt;table width=&quot;512&quot; height=&quot;190&quot;&gt;
+            &lt;tr&gt;
+              &lt;td width=&quot;172&quot;&gt;&lt;strong class=&quot;estilo4&quot;&gt;Nombres:&lt;/strong&gt;&lt;/td&gt;
+              &lt;td width=&quot;328&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;nombres&quot;required&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td class=&quot;estilo5&quot;&gt;Apellidos:&lt;/td&gt;
+              &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;apellidos&quot;required&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td class=&quot;estilo6&quot;&gt;Cedula:&lt;/td&gt;
+              &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;cedula&quot; id=&quot;cedula&quot;required&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td class=&quot;estilo7&quot;&gt;Celular:&lt;/td&gt;
+              &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;celular&quot; id=&quot;celular&quot;required&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td class=&quot;estilo8&quot;&gt;Correo Electronico:&lt;/td&gt;
+              &lt;td&gt;&lt;input type=&quot;email&quot; name=&quot;mail&quot; id=&quot;mail&quot;required &gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;&lt;strong class=&quot;estilo9&quot;&gt;Anexar Hoja de Vida:&lt;/strong&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;label for=&quot;Anexar hoja de vida&quot;&gt;&lt;/label&gt;
+                &lt;input type=&quot;file&quot; name=&quot;foto&quot; id=&quot;foto&quot;required&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+          &lt;div align=&quot;center&quot;&gt;
+            &lt;table width=&quot;270&quot;&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;div align=&quot;right&quot;&gt;
+                  &lt;input type=&quot;submit&quot; value=&quot;Enviar&quot;&gt;
+                &lt;/div&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;form action=&quot;pagina2.php&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Fase: Arquitectura y Diseño</p>
+
+<p>Utilizar una biblioteca o framework verificado y confiable que evite esta vulnerabilidad o proporcione elementos que faciliten evitarla.</p>
+
+<p>Por ejemplo, utilice el paquete anti-CSRG como el CSRGuard de OWASP.</p>
+
+<p>Fase: Implementación</p>
+
+<p>Asegúrese de que su aplicación esté libre de fallas de secuencias de comandos entre sitios, ya que la mayoría de las defensas de CSRF pueden detenerse por alto por medio del uso de secuencias de comandos manejadas por el atacante.</p>
+
+<p>Fase: Arquitectura y Diseño</p>
+
+<p>Origina un nonce único para cada uno de los formularios, coloque el nonce en el formularo y confirme la independencia al obtener el formulario. Asegúrese de que el nonce no sea predecible (CWE-330).</p>
+
+<p>Usted tiene que tener en cuenta que esto puede pasar desapercibido utilizando XSS.</p>
+
+<p>Identificar las operaciones que sean especialmente peligrosas. Cuando el usuario desarrolla una operación peligrosa, envíe una solicitud de confirmación de forma separada para poder garantizar que el usuario tenga la intención de desarrollar esa operación.</p>
+
+<p>Usted tiene que tener en cuenta que esto puede pasar desapercibido utilizando XSS.</p>
+
+<p>Utilice el control de gestión de la sesión de ESAPI.</p>
+
+<p>Este control introduce un elemento para CSRF.</p>
+
+<p>No utilice el método GET para ninguna de las solicitudes que puedan desencadenar un cambio de estado.</p>
+
+<p>Fase: Implementación</p>
+
+<p>Revise que la solicitud se creó en la página esperada. Esto podría quebrar la funcionalidad auténtica, ya que los usuarios o los representantes puede ser que hayan desactivado el envío de Referer por motivos de privacidad.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">Parameter Tampering (Manipulación de Parámetros)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://127.0.0.1/belleza/bellezaencasa/registro_logueo/registration.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A04_2021-Insecure_Design/">OWASP_2021_A04</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html">OWASP_2017_A01</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>La manipulación de parámetros provocó que se mostrara una página de error o un seguimiento de la pila de Java. Esto indica un fallo en como maneja las excepciones se podría explotar en el futuro.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (471 bytes)</summary>
+				
+				<pre><code>POST http://127.0.0.1/belleza/bellezaencasa/registro_logueo/registration.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://127.0.0.1/belleza/bellezaencasa/registro_logueo/registration.php
+content-length: 43
+Cookie: PHPSESSID=kqpnuc7c8poe4ku93rr2sgpsh4
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (43 bytes)</summary>
+				
+				<pre><code>username=ZAP&amp;=&amp;password=ZAP&amp;submit=Register</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (200 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:53 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Content-Length: 1211
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1211 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Registration&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;1220&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;../img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;registracion&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;
+          &lt;p&gt;
+            &lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;email&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\registro_logueo\registration.php&lt;/b&gt; on line &lt;b&gt;38&lt;/b&gt;&lt;br /&gt;
+&lt;div class=&#39;form&#39;&gt;
+&lt;h3&gt;Usted está registrado con éxito.&lt;/h3&gt;
+&lt;br/&gt;Click aqui para &lt;a href=&#39;login.php&#39;&gt;Inicio de sesion&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>email</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code> on line &lt;b&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Identificar la causa del error y solucionarlo. No confíe en la entrada del lado del cliente y hacer cumplir un control exhaustivo en el lado del servidor. Además, detectar la excepción correctamente. Utilice una página de error 500 genérico para error interno del servidor.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+				 
+				
+				
+				<li id="alerts--risk-1-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Alta</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-10">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server">WSTG-v42-INFO-02</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking version information via the &quot;Server&quot; HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (241 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/ HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (254 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:12 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Last-Modified: Sat, 03 Nov 2018 04:13:30 GMT
+ETag: &quot;9a7-579badfd96e80&quot;
+Accept-Ranges: bytes
+Content-Length: 2471
+Content-Type: text/html
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2471 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Documento sin título&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estlio2 .estlio2 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+}
+.estilo3 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 40px;
+	color: #6C6C6C;
+}
+body,td,th {
+	font-family: Arial, &quot;Arial Black&quot;, &quot;Arial Narrow&quot;, Roman;
+	font-size: 50px;
+	color: #000;
+}
+.estilo4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 75px;
+}
+.estilo5 .estilo5 {
+	font-size: 43px;
+}
+.estilo5 {	font-size: 24px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+}
+.estilo51 {
+	font-size: 30px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+	color: #003;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estlio2&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;principal&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo3&quot;&gt;consentimos y cuidamos la belleza de tu imagen.&lt;br&gt;
+          &lt;br&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo4&quot;&gt;¡ SERVICIO A DOMICILIO !&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo5&quot;&gt;
+          &lt;p class=&quot;estilo5&quot;&gt;&amp;quot; llega donde estes y en el momento que la necesites&amp;quot;          &lt;br&gt;
+            &lt;span class=&quot;estilo51&quot;&gt;Servicio en toda el area metropolitana.&lt;/span&gt;&lt;br&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width=&quot;604&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;registro_logueo/login.php&quot;&gt;&lt;img src=&quot;img/boton_1.png&quot; alt=&quot;boton de solicitar servicio&quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+        &lt;td width=&quot;606&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;php/admin.html&quot;&gt;&lt;img src=&quot;img/boton_2.png&quot; alt=&quot;registrese manicurista &quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress the &quot;Server&quot; header or provide generic details.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Media</span> <span>(4)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1</span> <span>(4)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-7">Cookie No HttpOnly Flag</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes">WSTG-v42-SESS-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (316 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://127.0.0.1/belleza/bellezaencasa/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (368 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:13 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Set-Cookie: PHPSESSID=kqpnuc7c8poe4ku93rr2sgpsh4; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 1465
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1465 bytes)</summary>
+				
+				<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Login&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;1220&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;../img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;login&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;
+          &lt;p&gt;
+                      &lt;/p&gt;
+          &lt;div class=&quot;form&quot;&gt;
+            &lt;h1&gt;Login&lt;/h1&gt;
+            &lt;form action=&quot;&quot; method=&quot;post&quot; name=&quot;login&quot;&gt;
+              &lt;input type=&quot;text&quot; name=&quot;username&quot; placeholder=&quot;Username&quot; required /&gt;
+              &lt;input type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot; required /&gt;
+              &lt;input name=&quot;submit&quot; type=&quot;submit&quot; value=&quot;iniciar sesion&quot; /&gt;
+            &lt;/form&gt;
+            &lt;p&gt;Todavia no estas registrado?&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&#39;registration.php&#39;&gt;Registrar aqui&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+                            &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>PHPSESSID</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Set-Cookie: PHPSESSID</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the HttpOnly flag is set for all cookies.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-8">Cookie sin el atributo SameSite</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes">WSTG-v42-SESS-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html">OWASP_2017_A05</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a &#39;cross-site&#39; request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (316 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://127.0.0.1/belleza/bellezaencasa/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (368 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:13 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Set-Cookie: PHPSESSID=kqpnuc7c8poe4ku93rr2sgpsh4; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 1465
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1465 bytes)</summary>
+				
+				<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Login&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;1220&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;../img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;login&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;
+          &lt;p&gt;
+                      &lt;/p&gt;
+          &lt;div class=&quot;form&quot;&gt;
+            &lt;h1&gt;Login&lt;/h1&gt;
+            &lt;form action=&quot;&quot; method=&quot;post&quot; name=&quot;login&quot;&gt;
+              &lt;input type=&quot;text&quot; name=&quot;username&quot; placeholder=&quot;Username&quot; required /&gt;
+              &lt;input type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot; required /&gt;
+              &lt;input name=&quot;submit&quot; type=&quot;submit&quot; value=&quot;iniciar sesion&quot; /&gt;
+            &lt;/form&gt;
+            &lt;p&gt;Todavia no estas registrado?&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&#39;registration.php&#39;&gt;Registrar aqui&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+                            &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>PHPSESSID</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Set-Cookie: PHPSESSID</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese que el atributo SameSite está establecido como &#39;lax&#39; o idealmente &#39;strict&#39; para todas las cookies.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-9">El servidor divulga información mediante un campo(s) de encabezado de respuesta HTTP &#39;&#39;&#39;&#39;X-Powered-By&#39;&#39;&#39;&#39;</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://127.0.0.1/belleza/bellezaencasa/php/pagina2.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">WSTG-v42-INFO-08</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>El servidor de la web/aplicación está divulgando información mediante uno o más encabezados de respuesta HTTP &#39;&#39;&#39;&#39;X-Powered-By&#39;&#39;&#39;&#39;. El acceso a tal información podría facilitarle a los atacantes la identificación de otros marcos/componentes de los que su aplicación web depende y las vulnerabilidades a las que pueden estar sujetos tales componentes.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (389 bytes)</summary>
+				
+				<pre><code>POST http://127.0.0.1/belleza/bellezaencasa/php/pagina2.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://127.0.0.1/belleza/bellezaencasa/php/admin.html
+content-length: 0
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (200 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:13 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Content-Length: 1181
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1181 bytes)</summary>
+				
+				<pre><code>﻿&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estilo2 {
+	font-size: 60px;
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;foto&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Trying to access array offset on value of type null in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;foto&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Trying to access array offset on value of type null in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Fatal error&lt;/b&gt;:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php:15
+Stack trace:
+#0 C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php(15): copy(&#39;&#39;, &#39;&#39;)
+#1 {main}
+  thrown in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>X-Powered-By: PHP/8.0.30</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese que su servidor web, servidor de aplicación, equilibrador de carga, etc. está configurado para suprimir encabezados &#39;&#39;&#39;&#39;X-Powered-By&quot;.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-11">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &#39;nosniff&#39;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (241 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/ HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (254 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:12 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Last-Modified: Sat, 03 Nov 2018 04:13:30 GMT
+ETag: &quot;9a7-579badfd96e80&quot;
+Accept-Ranges: bytes
+Content-Length: 2471
+Content-Type: text/html
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2471 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Documento sin título&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estlio2 .estlio2 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+}
+.estilo3 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 40px;
+	color: #6C6C6C;
+}
+body,td,th {
+	font-family: Arial, &quot;Arial Black&quot;, &quot;Arial Narrow&quot;, Roman;
+	font-size: 50px;
+	color: #000;
+}
+.estilo4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 75px;
+}
+.estilo5 .estilo5 {
+	font-size: 43px;
+}
+.estilo5 {	font-size: 24px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+}
+.estilo51 {
+	font-size: 30px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+	color: #003;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estlio2&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;principal&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo3&quot;&gt;consentimos y cuidamos la belleza de tu imagen.&lt;br&gt;
+          &lt;br&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo4&quot;&gt;¡ SERVICIO A DOMICILIO !&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo5&quot;&gt;
+          &lt;p class=&quot;estilo5&quot;&gt;&amp;quot; llega donde estes y en el momento que la necesites&amp;quot;          &lt;br&gt;
+            &lt;span class=&quot;estilo51&quot;&gt;Servicio en toda el area metropolitana.&lt;/span&gt;&lt;br&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width=&quot;604&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;registro_logueo/login.php&quot;&gt;&lt;img src=&quot;img/boton_1.png&quot; alt=&quot;boton de solicitar servicio&quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+        &lt;td width=&quot;606&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;php/admin.html&quot;&gt;&lt;img src=&quot;img/boton_2.png&quot; alt=&quot;registrese manicurista &quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &#39;nosniff&#39; for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				<li id="alerts--risk-0-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Alta</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-12">GET para POST</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/php/pagina2.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A04_2021-Insecure_Design/">OWASP_2021_A04</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods">WSTG-v42-CONF-06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Una solicitud que originalmente se observó como POST también se aceptó como GET. Este problema no representa una debilidad de seguridad en sí mismo, sin embargo, puede facilitar la simplificación de otros ataques. Por ejemplo, si el POST original está sujeto a Cross-Site Scripting (XSS), este descubrimiento puede indicar que también es posible un ataque XSS simplificado (basado en GET).</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (369 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/php/pagina2.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://127.0.0.1/belleza/bellezaencasa/php/admin.html
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (200 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:57 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Content-Length: 1181
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1181 bytes)</summary>
+				
+				<pre><code>﻿&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estilo2 {
+	font-size: 60px;
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+}
+&lt;/style&gt;
+&lt;body&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;foto&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Trying to access array offset on value of type null in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Undefined array key &quot;foto&quot; in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Trying to access array offset on value of type null in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Fatal error&lt;/b&gt;:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php:15
+Stack trace:
+#0 C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php(15): copy(&#39;&#39;, &#39;&#39;)
+#1 {main}
+  thrown in &lt;b&gt;C:\xampp\htdocs\belleza\bellezaencasa\php\pagina2.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>GET http://127.0.0.1/belleza/bellezaencasa/php/pagina2.php HTTP/1.1</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrate de que solo se acepta POST donde se espera POST.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-13">Petición de Autenticación Identificada</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>La petición en cuestión se ha identificado como una petición de autenticación. El campo &quot;Otra información&quot; contiene un conjunto de líneas key=vvalue que identifican cualquier campo relevante. Si la solicitud está en un contexto que tiene un método de autenticación configurado como &quot;Detección automática&quot;, esta regla cambiará la autenticación para que coincida con la petición identificada.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>userParam=username</p>
+
+<p>userValue=ZAP</p>
+
+<p>passwordParam=password</p>
+
+<p>referer=http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (457 bytes)</summary>
+				
+				<pre><code>POST http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php
+content-length: 47
+Cookie: PHPSESSID=kqpnuc7c8poe4ku93rr2sgpsh4
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (47 bytes)</summary>
+				
+				<pre><code>username=ZAP&amp;password=ZAP&amp;submit=iniciar+sesion</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (310 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:13 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 1036
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1036 bytes)</summary>
+				
+				<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Login&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;1220&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;../img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;login&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;
+          &lt;p&gt;
+            &lt;div class=&#39;form&#39;&gt;
+&lt;h3&gt;Username/password is incorrect.&lt;/h3&gt;
+&lt;br/&gt;Click here to &lt;a href=&#39;login.php&#39;&gt;Login&lt;/a&gt;&lt;/div&gt;                  &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>username</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>password</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Se trata de una alerta informativa y no de una vulnerabilidad, por lo que no hay nada que corregir.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Media</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-14">Respuesta de Gestión de Sesión Identificada</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Se ha identificado que la respuesta dada contiene un token de gestión de sesión. El campo &#39;Other Info&#39; contiene un conjunto de tokens de cabecera que pueden utilizarse en el método Header Based Session Management (gestión de sesión basado en cabecera). Si la petición se encuentra en un contexto que tiene un método Session Management establecido en &quot;Auto-Detect&quot;, esta regla cambiará la gestión de sesión para utilizar los tokens identificados.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>cookie:PHPSESSID</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (316 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa/registro_logueo/login.php HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://127.0.0.1/belleza/bellezaencasa/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (368 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:13 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Set-Cookie: PHPSESSID=kqpnuc7c8poe4ku93rr2sgpsh4; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 1465
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1465 bytes)</summary>
+				
+				<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Login&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table width=&quot;1220&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;../img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;login&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;div align=&quot;center&quot;&gt;
+          &lt;p&gt;
+                      &lt;/p&gt;
+          &lt;div class=&quot;form&quot;&gt;
+            &lt;h1&gt;Login&lt;/h1&gt;
+            &lt;form action=&quot;&quot; method=&quot;post&quot; name=&quot;login&quot;&gt;
+              &lt;input type=&quot;text&quot; name=&quot;username&quot; placeholder=&quot;Username&quot; required /&gt;
+              &lt;input type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot; required /&gt;
+              &lt;input name=&quot;submit&quot; type=&quot;submit&quot; value=&quot;iniciar sesion&quot; /&gt;
+            &lt;/form&gt;
+            &lt;p&gt;Todavia no estas registrado?&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&#39;registration.php&#39;&gt;Registrar aqui&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+                            &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>PHPSESSID</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>kqpnuc7c8poe4ku93rr2sgpsh4</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Se trata de una alerta informativa y no de una vulnerabilidad, por lo que no hay nada que corregir.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-15">User Agent Fuzzer</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1/belleza/bellezaencasa</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Compare las diferencias en la respuesta según el fuzzeo de User Agent (por ejemplo, sitios móviles, acceso como un motor de búsqueda). Compara el código de estado de la respuesta y el hash del cuerpo de la respuesta con la respuesta original.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (179 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1/belleza/bellezaencasa HTTP/1.1
+host: 127.0.0.1
+user-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (254 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 Feb 2024 03:58:57 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+Last-Modified: Sat, 03 Nov 2018 04:13:30 GMT
+ETag: &quot;9a7-579badfd96e80&quot;
+Accept-Ranges: bytes
+Content-Length: 2471
+Content-Type: text/html
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2471 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Documento sin título&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.estilo1 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80px;
+}
+.estlio2 .estlio2 {
+	font-family: &quot;Times New Roman&quot;, Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+}
+.estilo3 {
+	font-family: &quot;Comic Sans MS&quot;, cursive;
+	font-size: 40px;
+	color: #6C6C6C;
+}
+body,td,th {
+	font-family: Arial, &quot;Arial Black&quot;, &quot;Arial Narrow&quot;, Roman;
+	font-size: 50px;
+	color: #000;
+}
+.estilo4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 75px;
+}
+.estilo5 .estilo5 {
+	font-size: 43px;
+}
+.estilo5 {	font-size: 24px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+}
+.estilo51 {
+	font-size: 30px;
+	font-family: &quot;Arial Rounded MT Bold&quot;;
+	color: #003;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;table width=&quot;1220&quot; border=&quot;0&quot;&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo1&quot;&gt;Servicios Esteticos&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estlio2&quot;&gt;&lt;span class=&quot;estlio2&quot;&gt;Manicure y Pedicure&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;img src=&quot;img/rosa.gif&quot; width=&quot;750&quot; height=&quot;500&quot; alt=&quot;principal&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo3&quot;&gt;consentimos y cuidamos la belleza de tu imagen.&lt;br&gt;
+          &lt;br&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo4&quot;&gt;¡ SERVICIO A DOMICILIO !&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan=&quot;2&quot;&gt;&lt;div align=&quot;center&quot; class=&quot;estilo5&quot;&gt;
+          &lt;p class=&quot;estilo5&quot;&gt;&amp;quot; llega donde estes y en el momento que la necesites&amp;quot;          &lt;br&gt;
+            &lt;span class=&quot;estilo51&quot;&gt;Servicio en toda el area metropolitana.&lt;/span&gt;&lt;br&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width=&quot;604&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;registro_logueo/login.php&quot;&gt;&lt;img src=&quot;img/boton_1.png&quot; alt=&quot;boton de solicitar servicio&quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+        &lt;td width=&quot;606&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;php/admin.html&quot;&gt;&lt;img src=&quot;img/boton_2.png&quot; alt=&quot;registrese manicurista &quot; width=&quot;405&quot; height=&quot;125&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Header User-Agent</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)</code></pre></td>
+	</tr>
+	
+	
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>Application Error Disclosure</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/90022/">Application Error Disclosure</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/200.html">200</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Ausencia de Ttokens Anti-CSRF</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10202/">Ausencia de Ttokens Anti-CSRF</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/352.html">352</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>9</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://projects.webappsec.org/Cross-Site-Request-Forgery">http://projects.webappsec.org/Cross-Site-Request-Forgery</a></li>
+										<li><a
+											href="https://cwe.mitre.org/data/definitions/352.html">https://cwe.mitre.org/data/definitions/352.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>Cabecera Content Security Policy (CSP) no configurada</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10038/">Cabecera Content Security Policy (CSP) no configurada</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy">https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</a></li>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a></li>
+										<li><a
+											href="http://www.w3.org/TR/CSP/">http://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html">http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</a></li>
+										<li><a
+											href="http://www.html5rocks.com/en/tutorials/security/content-security-policy/">http://www.html5rocks.com/en/tutorials/security/content-security-policy/</a></li>
+										<li><a
+											href="http://caniuse.com/#feat=contentsecuritypolicy">http://caniuse.com/#feat=contentsecuritypolicy</a></li>
+										<li><a
+											href="http://content-security-policy.com/">http://content-security-policy.com/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Directory Browsing (Exploración de directorios)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/0/">Directory Browsing (Exploración de directorios)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/548.html">548</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>48</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://httpd.apache.org/docs/mod/core.html#options">http://httpd.apache.org/docs/mod/core.html#options</a></li>
+										<li><a
+											href="http://alamo.satlug.org/pipermail/satlug/2002-February/000053.html">http://alamo.satlug.org/pipermail/satlug/2002-February/000053.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Falta de cabecera Anti-Clickjacking</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10020/">Cabecera Anti-Clickjacking</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>Hidden File Found (Archivo Oculto Encontrado)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/40035/">Hidden File Finder (Buscador de Archivos Ocultos)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/538.html">538</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://blog.hboeck.de/archives/892-Introducing-Snallygaster-a-Tool-to-Scan-for-Secrets-on-Web-Servers.html">https://blog.hboeck.de/archives/892-Introducing-Snallygaster-a-Tool-to-Scan-for-Secrets-on-Web-Servers.html</a></li>
+										<li><a
+											href="https://httpd.apache.org/docs/current/mod/mod_status.html">https://httpd.apache.org/docs/current/mod/mod_status.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>Parameter Tampering (Manipulación de Parámetros)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/40008/">Parameter Tampering (Manipulación de Parámetros)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/472.html">472</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>20</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-7">
+						<h4>Cookie No HttpOnly Flag</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10010/">Cookie No HttpOnly Flag</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1004.html">1004</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/www-community/HttpOnly">https://owasp.org/www-community/HttpOnly</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-8">
+						<h4>Cookie sin el atributo SameSite</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10054/">Cookie sin el atributo SameSite</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1275.html">1275</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site">https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-9">
+						<h4>El servidor divulga información mediante un campo(s) de encabezado de respuesta HTTP &#39;&#39;&#39;&#39;X-Powered-By&#39;&#39;&#39;&#39;</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10037/">El servidor divulga información mediante un campo(s) de encabezado de respuesta HTTP &#39;&#39;&#39;&#39;X-Powered-By&#39;&#39;&#39;&#39;</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/200.html">200</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://blogs.msdn.com/b/varunm/Archive/2013/04/23/Remove-Unwanted-http-Response-headers.aspx http://www.troyhunt.com/2012/02/shhh-don &#39; t-deje-la-respuesta-headers.html">http://blogs.msdn.com/b/varunm/Archive/2013/04/23/Remove-Unwanted-http-Response-headers.aspx http://www.troyhunt.com/2012/02/shhh-don &#39; t-deje-la-respuesta-headers.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-10">
+						<h4>Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10036/">HTTP Server Response Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/200.html">200</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://httpd.apache.org/docs/current/mod/core.html#servertokens">http://httpd.apache.org/docs/current/mod/core.html#servertokens</a></li>
+										<li><a
+											href="http://msdn.microsoft.com/en-us/library/ff648552.aspx#ht_urlscan_007">http://msdn.microsoft.com/en-us/library/ff648552.aspx#ht_urlscan_007</a></li>
+										<li><a
+											href="http://blogs.msdn.com/b/varunm/archive/2013/04/23/remove-unwanted-http-response-headers.aspx">http://blogs.msdn.com/b/varunm/archive/2013/04/23/remove-unwanted-http-response-headers.aspx</a></li>
+										<li><a
+											href="http://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html">http://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-11">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx">http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-12">
+						<h4>GET para POST</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10058/">GET para POST</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/16.html">16</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>20</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-13">
+						<h4>Petición de Autenticación Identificada</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10111/">Petición de Autenticación Identificada</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/">https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-14">
+						<h4>Respuesta de Gestión de Sesión Identificada</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10112/">Respuesta de Gestión de Sesión Identificada</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id">https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-15">
+						<h4>User Agent Fuzzer</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10104/">User Agent Fuzzer</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/wstg">https://owasp.org/wstg</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
